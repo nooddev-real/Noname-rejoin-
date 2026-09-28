@@ -25,7 +25,7 @@ pip install requests psutil aiohttp pillow
 
 3. Run / Khởi chạy:
 ```bash
-python main.py
+su -c "export PATH=\$PATH:/data/data/com.termux/files/usr/bin && export TERM=xterm-256color && cd /sdcard/Download && python main.py"
 ```
 
 ### License / Giấy phép
