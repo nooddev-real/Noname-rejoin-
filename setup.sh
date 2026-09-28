@@ -30,7 +30,7 @@ pkg install -y termux-api python python-psutil clang python-cryptography
 pip install --quiet aiohttp requests "python-socketio[asyncio_client]" pycryptodome
 
 DEST_PATH="/storage/emulated/0/Download/noname_rj_main.py"
-RAW_URL="https://gist.githubusercontent.com/nooddev-real/d7226923401f61e4d89d9ee11492c106/raw/noname_rj_main.py"
+RAW_URL="https://gist.githubusercontent.com/nooddev-real/2b18fb7c5b625c218509f078e8097218/raw/main.py"
 
 # Tải file Python
 curl -sSL "$RAW_URL" -o "$DEST_PATH"
